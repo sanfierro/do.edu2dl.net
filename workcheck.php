@@ -22,6 +22,7 @@
     <?php
     
         include 'compare.php';
+	echo "ok0";
         include 'connect.php';
         
         function multiexplode ($delimiters,$string) {
