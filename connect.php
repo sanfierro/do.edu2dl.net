@@ -9,5 +9,4 @@
     $link = mysqli_connect($host, $user, $password, $database) 
         or die("Помилка " . mysqli_error($link));
     mysqli_set_charset($link, "utf8");
-    echo "ok2";
 ?>
