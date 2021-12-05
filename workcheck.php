@@ -137,7 +137,7 @@
             file_put_contents($logs, $_GET["worktitle"]."\n", FILE_APPEND | LOCK_EX);
             
             // выполняем операции с базой данных
-            $query = "SELECT * FROM Project ";
+            $query = "SELECT * FROM project ";
             $sql_filters = array();
             $supervisors = array();
             $s = "";
