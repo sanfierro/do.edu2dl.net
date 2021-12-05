@@ -1,9 +1,9 @@
 <?php
 
-    $host = "localhost:3306";
-    $user = "e32270_dbuser";
-    $password = "!6985Vdk21";
-    $database = "e32270_worksdb";
+    $host = "eu-cdbr-west-01.cleardb.com";
+    $user = "bc948ba523b8ff";
+    $password = "7c356faa";
+    $database = "heroku_3077959cedd490a";
     
     // подключаемся к серверу
     $link = mysqli_connect($host, $user, $password, $database) 
