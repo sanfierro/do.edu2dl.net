@@ -1,6 +1,6 @@
 <?php
 
-    $host = "localhost:3306";
+    $host = "eu6.dominant.lt:3306";
     $user = "e32270_dbuser";
     $password = "!6985Vdk21";
     $database = "e32270_worksdb";
